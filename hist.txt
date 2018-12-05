@@ -1,0 +1,500 @@
+   55  2018-12-05 03:10:53 	cd ..
+   56  2018-12-05 03:10:53 	ls
+   57  2018-12-05 03:10:53 	cd ..
+   58  2018-12-05 03:10:53 	cd enigma_playground/
+   59  2018-12-05 03:10:53 	ls
+   60  2018-12-05 03:10:53 	cd enigma/
+   61  2018-12-05 03:10:53 	ls
+   62  2018-12-05 03:10:53 	vi Jenkinsfile 
+   63  2018-12-05 03:10:53 	cd ..
+   64  2018-12-05 03:10:53 	cd ..
+   65  2018-12-05 03:10:53 	cd kubernetes_playground/
+   66  2018-12-05 03:10:53 	ls
+   67  2018-12-05 03:10:53 	git clone 
+   68  2018-12-05 03:10:53 	git clone https://github.com/kubernetes/charts.git
+   69  2018-12-05 03:10:53 	ls
+   70  2018-12-05 03:10:53 	cd charts/
+   71  2018-12-05 03:10:53 	ls
+   72  2018-12-05 03:10:53 	cd stable/
+   73  2018-12-05 03:10:53 	ls
+   74  2018-12-05 03:10:53 	cd acs-engine-autoscaler/
+   75  2018-12-05 03:10:53 	ls
+   76  2018-12-05 03:10:53 	code .
+   77  2018-12-05 03:10:53 	code .
+   78  2018-12-05 03:10:53 	helm search incubator 
+   79  2018-12-05 03:10:53 	az acs kubernetes get-credentials --resource-group=kubernetes --name=K8SClusterPoc
+   80  2018-12-05 03:10:53 	code /Users/raviteja/.kube/config
+   81  2018-12-05 03:10:53 	az acs kubernetes get-credentials --resource-group=kubernetes --name=K8SClusterPoc --ssh-key-file
+   82  2018-12-05 03:10:53 	az acs kubernetes get-credentials --resource-group=kubernetes --name=K8SClusterPoc -h
+   83  2018-12-05 03:10:53 	az acs kubernetes get-credentials --ssh-key-file --resource-group=kubernetes --name=K8SClusterPoc -
+   84  2018-12-05 03:10:53 	az acs kubernetes get-credentials --ssh-key-file --resource-group=kubernetes --name=K8SClusterPoc 
+   85  2018-12-05 03:10:53 	az acs kubernetes get-credentials --ssh-key-file 
+   86  2018-12-05 03:10:53 	az acs kubernetes browse --name=K8SClusterPoc --resource-group=kubernetes
+   87  2018-12-05 03:10:53 	ls
+   88  2018-12-05 03:10:53 	cd ..
+   89  2018-12-05 03:10:53 	ls
+   90  2018-12-05 03:10:53 	helm  install acs-engine-autoscaler/
+   91  2018-12-05 03:10:53 	cd acs-engine-autoscaler/
+   92  2018-12-05 03:10:53 	ls
+   93  2018-12-05 03:10:53 	cat values.yaml 
+   94  2018-12-05 03:10:53 	cd ..
+   95  2018-12-05 03:10:53 	helm  install acs-engine-autoscaler/
+   96  2018-12-05 03:10:53 	kubectl proxy 
+   97  2018-12-05 03:10:53 	ls
+   98  2018-12-05 03:10:53 	cd ~/chevron_playground/
+   99  2018-12-05 03:10:53 	ls
+  100  2018-12-05 03:10:53 	git clone https://chevron.visualstudio.com/AnsibleRoles/_git/ansible-role-azure-iaas
+  101  2018-12-05 03:10:53 	ls
+  102  2018-12-05 03:10:53 	code ansible-role-azure-iaas/
+  103  2018-12-05 03:10:53 	cd -
+  104  2018-12-05 03:10:53 	ls
+  105  2018-12-05 03:10:53 	cd acs-engine-autoscaler/
+  106  2018-12-05 03:10:53 	ls
+  107  2018-12-05 03:10:53 	cd ..
+  108  2018-12-05 03:10:53 	helm ls
+  109  2018-12-05 03:10:53 	helm  install acs-engine-autoscaler/
+  110  2018-12-05 03:10:53 	cd /Users/raviteja/.kube/
+  111  2018-12-05 03:10:53 	ls
+  112  2018-12-05 03:10:53 	cat config
+  113  2018-12-05 03:10:53 	cd -
+  114  2018-12-05 03:10:53 	kubectl get pods 
+  115  2018-12-05 03:10:53 	echo LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQ0KTUlJRXBRSUJBQUtDQVFFQWlBZmppNWtVaURRR3doRzhjYXdZSjJjVjF6d1hiSVRQZS9WUWpUWC9Hc1VYR0psVA0KaUJRQnRpeXFOTkRKYXVNdmdsRS9JQzV3cGJWRE92cXFhQnczVW9hSVhzSkVRdDBkWXFkeGVUNlkzc3RoUnVCeQ0KVlR6bjYrWVBudHlZSTVVdDBOL0xLWjdSL0dVQmU3NmhVcGFwUFM0YnJ0OXhPMVRBZ3dEVzRIZ2NHOVNnSmc2MA0KUUpqSnp0QXkwZys0WStvUXVHZ2Rab21oNGUwREx1cndyME5qMC9MREJyOU1nYXJGQjUxZ3dYQmpzWXVFSndPMA0KazZ5L2o0QnpNY1lkdDlSY0dGVHBtSm1helYwU2RHSTVuWE1nMUV0VFgwdVN2dU9jcFBaZmVJZkpudE1rOWV1Yw0KaVhvUm1OZEVyZ1R1eCtIRFRSMFBKanNmczBGT2FtTG0rak9lTlFJREFRQUJBb0lCQUM4MTFiSUlRY2ozalhUag0KSk95cWxvTnVVblV0cE0rRDFHS29BL25PU0tnb3lOZy90bTdleXExSUdSWlZjK0lGME9KQWdsRVA3UWFGdnp5RA0KN0lwUGFKL2FrdytZQ29yT0pMbXRkVU5vQnpRamo3SkNpVXV0NUt2Slg1aDU1TTlNb2VjQkZJaHdWMTVxUzdaLw0KdFl0dFFIVThRRjFUclAremJWREtCTWxJeGpDZCthT0hiWnRJWXoyMDNXUVNCd3pjWmRLcWdTYVoyU05WSlFheg0KR09ueXk3RURONzVRMld1TWpLREE3anBCWS9YUmRCdzJ5akR3dmR3cjZ5N2VteWw5K3ArKzFpbTc4N2VUbjMzbw0KakY3dUJwdE16RlVjaDB1VHIxZEpjVkpFdDM1ZmtSTWVmcFF3Z0I2RUtZWnprMnJpYW9tZ0tYNklsQzBIdzFyRA0KelNuY2YyMENnWUVBNHdlck5wUlVEL2t2SXgrU3kzUDBBbXdCcDFNVmlxb1FvREF3OTlHVU1sYXpQSlppaTFTLw0KdW02MjZwR1JuSGdZemJzSWpaczZ1UjdHK2NLbk5yU3UrbG5zdFNrTEpxQllSMSsyMWtoWnRQa2RJdlZIdlJjRg0KS3ZtcGdlMi9oRVZ3MFgwSk4yeFlmRWVSRGF1NHFReDNjVHRuTE5pNmQyeXRJZWVGdTBwZ3JtTUNnWUVBbVdPUw0KMzdXSzlyOG11aXRsNnlORXgwYjdtRkFzNTRROFVubGZpbkRDZEg1bHJ0OTNtZXlNeEFNcWJxSDFHeXk4ZmNvTg0KcHJoa2lFcjBXSzhLbnNDdXJ0VjVuaUNMSThNNklZbVExWFI1Y2QvQnVnaGdvL3c2SG1SZlRrellLbnRmeWVGeg0KUU1rV2FpUnJSeUY4S2pKWEFIcklCcXY2WXNTU0IvTEMrQ1JHT0ljQ2dZRUF5T3JOaEFUckRDUGJxbnJUdjhoRA0KWnkxTW5WY3pGaitCYlRLWTg0aC9YYmxLOEZDcXIySDJON2lwbXBmdlJJa29jbEdXdFROdVdjdzZEV2xOOEdVaA0KQWFBNWt1M2ExM2xLQndoVzEvYTVwU1pkdWNWV2txcGZ3WE9ucHJ2UUpQQUxjdW4wRVIrS2c1b1diZ0hONzVWLw0KMHk3ZUZWdE1Va3BVUWxBU0V2azA3TDhDZ1lFQWlhQXYvZ3p6ZkdVU0tHUWI5QmdXOC80YWJCVXoxUjV1eVVraA0Ka2lPT05kdmEvRWFCRjFpSkRLNFNlbVZTZUdseFRpUG1qN3BPYVlObkxkTVFZbFJiNTM2ZXVtUlVzMmZOVnA0Sg0KbDV3RUEwcFNsY3BDZTZBcHZXOHRuQ0dTcXJzN3ZQVk41Y2tIRllGTHgreWhiWEx4WVBySlVrTW9TMG80QkcycQ0KeGQ0Mkt5MENnWUVBdGlDbStZNEgvYUc2VWFpd2dJZ3lSeUwrZzY3Q21kdVBZc2lhdkptbGRuNG5CS3hpUnFESQ0KcDBueFp2ZDIvUlFSWS9COW1RN0hWclFidzFCYUZiZ0dCUVFhNy83dUFwemFLenZ5a2Z5TXBUM2hMc2hPMHJ0bA0KNW83ajBxSzA4QURTai9rR2M2MHhZSDlrTjdZTzgyRVdKOVpCWjA2bmVLTUl4Rzc4UEthbVhkUT0NCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tDQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA= | base64 --decode
+  116  2018-12-05 03:10:53 	echo LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURlekNDQW1PZ0F3SUJBZ0lVWm15ZEFRL25lZDJCcHVBQTAvWG04cFB3ZDZBd0RRWUpLb1pJaHZjTkFRRUwKQlFBd1ZERUxNQWtHQTFVRUJoTUNWVXN4RHpBTkJnTlZCQWNUQmt4dmJtUnZiakVTTUJBR0ExVUVDaE1KVDNCbApia055WldSdk1Rc3dDUVlEVlFRTEV3SkRRVEVUTUJFR0ExVUVBeE1LUzNWaVpYSnVaWFJsY3pBZUZ3MHhOekE1Ck1qSXdPRE0xTURCYUZ3MHlNakE1TWpFd09ETTFNREJhTUZReEN6QUpCZ05WQkFZVEFsVkxNUTh3RFFZRFZRUUgKRXdaTWIyNWtiMjR4RWpBUUJnTlZCQW9UQ1U5d1pXNURjbVZrYnpFTE1Ba0dBMVVFQ3hNQ1EwRXhFekFSQmdOVgpCQU1UQ2t0MVltVnlibVYwWlhNd2dnRWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUM2CmpPRjA3VWp6ZjZtbW01YkwxaEVpdWFhYytETmM4WkZ5ZjFxN1RWN3p1MFhiWHhwaDhYYVA2QnFFQkhCNTZ4TnQKSE90S2tOTkZMSndiSG9hanU5SUUxQVpURDlmZ1JVY2EvNGhRSjE4NmMydG1hdVlsVHZqSjFST0xNd3dSQ0dwOQptL1lla3JObFBkdTRzNEpnSThyQVhtT0Y0c2o0QWMzKzRZZkdCSnE1clpCdTZHUWhyM0FuQ1FTQWJ5VzdiRHlRClRxYW9jbmdQeHpMcFNZVWZHeVZIampDalp3N3BCUXRDTjcxR3FDZDNiRzY2TVpGVTE2SU9icE1NYlV2OFhuUGUKeS84YWwwR0xRaEJLa3dNSVNjdzYzdjhLQ1hnclpKeU1FWHQvd3Z5NHpDbVp1RE9iL3RPbmF1NTRlWXhuTVpVLwpTNWszOWpKcjl4Q0RGL21wU0NvMUFnTUJBQUdqUlRCRE1BNEdBMVVkRHdFQi93UUVBd0lCQmpBU0JnTlZIUk1CCkFmOEVDREFHQVFIL0FnRUNNQjBHQTFVZERnUVdCQlFsTXNxbnF4OGR2RVEvT0RGOFVkcjNPdGJMNERBTkJna3EKaGtpRzl3MEJBUXNGQUFPQ0FRRUFQOGNNME94UmtFTXJzd056ZFI4WHlVWUJySzlWSFlrZGR1dHhtR0hiMnlSSApUQ3hGbHZEY0tRRXEwTkNZcGpCbm1OTWNVUW12RWI4a0lPSE5qZ3k3M3FHWjh2YWpmOWFjb1I4YzdPZHFMVUViCnlpOEQ3RUZJUUxYcXhNakhNZWd4ZkhBN3hDeUxRZjdlcVRyMWdTSGRwNEIzaGFvNFFMTXRQWGkyNVIxclNWNGcKRDZmUEZ6SzRJRWxIbEEyQUJnOU9rdlJSYUNma2M0N1NNMDh0NnV0V3FJaEpDbHNLSWVVMjBwOGhzYTBzZFo1cQp1dzl4alY2aTdXODkvd3hWUWpTOGhhVEFaQ0pqSzk5QmVzaVdBYTRzVVNpeEVra2xVb0hLTzFNOFRmYVlxTjRjCmk2eG0ycTU3MEd3SDlnTWlOazdLVTFpK3JyTVhIN3JLeHRLUWpYbG5Pdz09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K | base64 --decode 
+  117  2018-12-05 03:10:53 	echo LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlETURDQ0FoaWdBd0lCQWdJSUN1cXNseGRmWi9Jd0RRWUpLb1pJaHZjTkFRRUxCUUF3RXpFUk1BOEdBMVVFQXd3SVlXTnphemh6DQpZMkV3SGhjTk1UY3hNakV4TURBd01EQXdXaGNOTVRreE1qRXhNREF3TURBd1dqQVRNUkV3RHdZRFZRUUREQWhoWTNOck9ITmpZVENDDQpBU0l3RFFZSktvWklodmNOQVFFQkJRQURnZ0VQQURDQ0FRb0NnZ0VCQUlRa2JOejRMRlBESDN4b3p1SjhPYkJCWkErWVd2aGVWdkpnDQp6UTJqRmFMUS9xWTNjV05kVnZoc3daSmg5bWlteFZFT0IvbHRiL2NrakZKaUVFZkFJcHU0bVVQbzhtbEZmaHNWODMrb2J0ZFpMYXNwDQpmRFFhOVVFaURsaHo5eGxwczNEWERndWxNUWpOYVpkRUI2SWVKUVkrdmFlUUZic0hmcUIzSE9FdWZ2c25TcVFxQzV6NHFwNHQ0aTJPDQpNQ0Jaek9SMy90bU9IVSs5dHZVS3dYMnV6SkFmUTVNUWJMam9HcXZNWk1OWXhkMlFHbnRVVlhTMExDcExLazRUUGdHM01RVGN6WkFpDQpWdHZJR2kyNFNuc2JVWEpjQm1OazRJd084WEoyMmZSRjR0YUFGTjF4QXEzU3hJbGpHSW9wV3BGT25KVlhNdTRBaEdJVjZieXRwVWVqDQo5VFVDQXdFQUFhT0JoekNCaERCQ0JnTlZIU01FT3pBNWdCUjB1ZURGTXNwcXF5aVZ6KzdXMFNWcW0zTjllcUVYcEJVd0V6RVJNQThHDQpBMVVFQXd3SVlXTnphemh6WTJHQ0NBcnFySmNYWDJmeU1CMEdBMVVkRGdRV0JCUjB1ZURGTXNwcXF5aVZ6KzdXMFNWcW0zTjllakFQDQpCZ05WSFJNQkFmOEVCVEFEQVFIL01BNEdBMVVkRHdFQi93UUVBd0lDcERBTkJna3Foa2lHOXcwQkFRc0ZBQU9DQVFFQUs2WlVLRHVBDQplQk5Db3F3em9VeVNzV2hjV25ZWjdNQkJnMXozZWQ0MFNXMmVkYnZBaHllV2UrY0dXSlRrd1ltVVA5dGJRQkRWK1IvbUVPRFVvdnliDQptU2ZpYXd0QTdNVVZob2ZxRHJrbEh4VzJlaUZJVjRYd1NvZGZLTXZJWnN4OHFlMmFoZ082MHcwMHFmT3BtR3kxNkQ5cGdZTmRMU3c3DQpEcGowWFZ4QzZGR0ZPaEppWDhPaWkrc1hLNGJJQVVGdWZxZmZlLysxekxIOUFNbnBsSklaTGlzQ0RRTkhEallvZjBTMzJUMlphS3hqDQpMWUZ5bXJyTTVXSkhNTzlidURYSXJDR2FEcWxUMWxZOFFxU0VKaUM0amNGTU1mcWN3RDFBdExvNEdreFF5QWZlbjVJQjZmMHZzeTdHDQpzMThJMzN1WDlqeG9JaTNFSGpwMlpkVGlSR0NPWHc9PQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0K | base64 --decode 
+  118  2018-12-05 03:10:53 	echo LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlEUkRDQ0FpeWdBd0lCQWdJSU9mQWt3MzBIbWdVd0RRWUpLb1pJaHZjTkFRRUxCUUF3RXpFUk1BOEdBMVVFQXd3SVlXTnphemh6DQpZMkV3SGhjTk1UY3hNakV4TURBd01EQXdXaGNOTVRreE1qRXhNREF3TURBd1dqQVZNUk13RVFZRFZRUUREQXByZFdKbFkyOXVabWxuDQpNSUlCSWpBTkJna3Foa2lHOXcwQkFRRUZBQU9DQVE4QU1JSUJDZ0tDQVFFQWlBZmppNWtVaURRR3doRzhjYXdZSjJjVjF6d1hiSVRQDQplL1ZRalRYL0dzVVhHSmxUaUJRQnRpeXFOTkRKYXVNdmdsRS9JQzV3cGJWRE92cXFhQnczVW9hSVhzSkVRdDBkWXFkeGVUNlkzc3RoDQpSdUJ5VlR6bjYrWVBudHlZSTVVdDBOL0xLWjdSL0dVQmU3NmhVcGFwUFM0YnJ0OXhPMVRBZ3dEVzRIZ2NHOVNnSmc2MFFKakp6dEF5DQowZys0WStvUXVHZ2Rab21oNGUwREx1cndyME5qMC9MREJyOU1nYXJGQjUxZ3dYQmpzWXVFSndPMGs2eS9qNEJ6TWNZZHQ5UmNHRlRwDQptSm1helYwU2RHSTVuWE1nMUV0VFgwdVN2dU9jcFBaZmVJZkpudE1rOWV1Y2lYb1JtTmRFcmdUdXgrSERUUjBQSmpzZnMwRk9hbUxtDQorak9lTlFJREFRQUJvNEdaTUlHV01FSUdBMVVkSXdRN01EbUFGSFM1NE1VeXltcXJLSlhQN3RiUkpXcWJjMzE2b1Jla0ZUQVRNUkV3DQpEd1lEVlFRRERBaGhZM05yT0hOallZSUlDdXFzbHhkZlovSXdIUVlEVlIwT0JCWUVGSlcrL1RBOHJ6WStydkwxeWVjNUN2YlFWaW1lDQpNQXdHQTFVZEV3RUIvd1FDTUFBd0RnWURWUjBQQVFIL0JBUURBZ1dnTUJNR0ExVWRKUVFNTUFvR0NDc0dBUVVGQndNQ01BMEdDU3FHDQpTSWIzRFFFQkN3VUFBNElCQVFBWmtuV3FjMk56VUVJaUVRNGtXbVIxUTFPUkpTR25vTDlNeHFLTlJhdUxuS2tLTmk0NWY5ZjdTd2owDQozeTc3c1YxcTFLMmU4ckUvNGtTODV6b2haMUZ4em15dmRKaVJ4K3FEZWNpQ1JmVlhBVUd0aDFlSEtOdU9FTm04a1NTVFlNVmxhZTZWDQpER051Y25NRG1SMlpjNHZQVmJYbVpPLzk2ZGtoMlRwNmNXZFNFbjZtQzNnZlQyclhTc2ZSNURHaGg4aUo1WGZORkdkTXJvbmF0clNWDQp5QmtRSlVPNmQyYmRBTEl3SnRWeWtZalg4UWJRejhKaGd2ajQvZ0p4VzB1REJGUGJLWXEzL0E0azF3U0ljam5jM0NvWUtKMVM0UzFSDQo4L1VBaUwzYkg4YlMwMlhLVUNlcjNLQ1lWdE9UeWJKbktDbXVqNVBoeFJhc1BneERMU20xTEVrbA0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ0K | base64 --decode 
+  119  2018-12-05 03:10:53 	ls
+  120  2018-12-05 03:10:53 	wpd 
+  121  2018-12-05 03:10:53 	pwd 
+  122  2018-12-05 03:10:53 	mkdir ~/tensor_playground && cd $_
+  123  2018-12-05 03:10:53 	git clone --recursive https://github.com/tensorflow/serving
+  124  2018-12-05 03:10:53 	ls
+  125  2018-12-05 03:10:53 	ls
+  126  2018-12-05 03:10:53 	docker build --pull -t $USER/tensorflow-serving-devel -f tensorflow_serving/tools/docker/Dockerfile.devel .
+  127  2018-12-05 03:10:53 	ls
+  128  2018-12-05 03:10:53 	cd serving/
+  129  2018-12-05 03:10:53 	ls
+  130  2018-12-05 03:10:53 	docker build --pull -t $USER/tensorflow-serving-devel -f tensorflow_serving/tools/docker/Dockerfile.devel .
+  131  2018-12-05 03:10:53 	docker images 
+  132  2018-12-05 03:10:53 	docker run --name=tensorflow_container -it $USER/tensorflow-serving-devel
+  133  2018-12-05 03:10:53 	ls
+  134  2018-12-05 03:10:53 	docker run -d -p 9090:9090 --name serving-server  -v ~/Downloads:/downloads quay.io/lachie83/inception_serving  /serving/bazel-bin/tensorflow_serving/model_servers/tensorflow_model_server --port=9090 --model_name=inception --model_base_path=/serving/inception-export
+  135  2018-12-05 03:10:53 	docker ps 
+  136  2018-12-05 03:10:53 	docker inspect serving-server | grep -i ipaddr
+  137  2018-12-05 03:10:53 	export INCEPTION_SERVICE_IP=172.17.0.2
+  138  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Dropbox:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpeg
+  139  2018-12-05 03:10:53 	docker run --name serving-client -v ~/Dropbox:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpeg
+  140  2018-12-05 03:10:53 	docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpeg
+  141  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Dropbox:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpeg
+  142  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpeg
+  143  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpg
+  144  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.JPG
+  145  2018-12-05 03:10:53 	docker ps 
+  146  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.JPG
+  147  2018-12-05 03:10:53 	export INCEPTION_SERVICE_IP=172.17.0.2
+  148  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.JPG
+  149  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/brian.jpg
+  150  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/Baby-With-Flower-Ears-Funny-Picture.jpg
+  151  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/IMG_0005.jpg
+  152  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/IMG_0029.jpg
+  153  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/IMG_0583.jpg
+  154  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/IMG_0583.jpg
+  155  2018-12-05 03:10:53 	l
+  156  2018-12-05 03:10:53 	ls
+  157  2018-12-05 03:10:53 	cd ..
+  158  2018-12-05 03:10:53 	NAME=TFVM
+  159  2018-12-05 03:10:53 	export NAME=TFVM
+  160  2018-12-05 03:10:53 	export SSHKEY=~/.ssh/id_rsa.pub 
+  161  2018-12-05 03:10:53 	export RESOURCE_GROUP=Kubernetes
+  162  2018-12-05 03:10:53 	az location list 
+  163  2018-12-05 03:10:53 	az location list -o table
+  164  2018-12-05 03:10:53 	az account list-locations
+  165  2018-12-05 03:10:53 	az account list-locations -o table
+  166  2018-12-05 03:10:53 	export LOCATION=westus
+  167  2018-12-05 03:10:53 	ls
+  168  2018-12-05 03:10:53 	export RESOURCE_GROUP=Tensdor
+  169  2018-12-05 03:10:53 	export RESOURCE_GROUP=Tensor
+  170  2018-12-05 03:10:53 	echo $RESOURCE_GROUP
+  171  2018-12-05 03:10:53 	az group create -n $RESOURCE_GROUP -l $LOCATION && az vm create --name $NAME --resource-group $RESOURCE_GROUP --image microsoft-ads:linux-data-science-vm-ubuntu:linuxdsvmubuntu:latest --size Standard_NC6 --ssh-key-value $SSHKEY --admin-username $USER --public-ip-address-dns-name $NAME
+  172  2018-12-05 03:10:53 	az vm create --name $NAME --resource-group $RESOURCE_GROUP --image microsoft-ads:linux-data-science-vm-ubuntu:linuxdsvmubuntu:latest --size Standard_NC6 --ssh-key-value $SSHKEY --admin-username $USER --public-ip-address-dns-name $NAME
+  173  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/IMG_2360.jpg
+  174  2018-12-05 03:10:53 	docker rm -f serving-client && docker run --name serving-client -v ~/Downloads:/downloads quay.io/lachie83/inception_serving /serving/bazel-bin/tensorflow_serving/example/inception_client --server=$INCEPTION_SERVICE_IP:9090 --image=/downloads/Baby-With-Flower-Ears-Funny-Picture.jpg
+  175  2018-12-05 03:10:53 	git clone --recurse-submodules https://github.com/tensorflow/serving.git
+  176  2018-12-05 03:10:53 	ls
+  177  2018-12-05 03:10:53 	cd serving/tensorflow_serving/tools/docker
+  178  2018-12-05 03:10:53 	ls
+  179  2018-12-05 03:10:53 	vi Dockerfile.devel-gpu 
+  180  2018-12-05 03:10:53 	cd -
+  181  2018-12-05 03:10:53 	cd serving/
+  182  2018-12-05 03:10:53 	ls
+  183  2018-12-05 03:10:53 	cd -
+  184  2018-12-05 03:10:53 	docker build --pull -t $USER/tensorflow-serving-devel-gpu -f Dockerfile.devel-gpu .
+  185  2018-12-05 03:10:53 	ls
+  186  2018-12-05 03:10:53 	docker build --pull -t $USER/tensorflow-serving-devel-gpu -f Dockerfile.devel-gpu .
+  187  2018-12-05 03:10:53 	/Users/raviteja/anaconda2/bin/jupyter_mac.command ; exit;
+  188  2018-12-05 03:10:53 	cd ../../
+  189  2018-12-05 03:10:53 	ls
+  190  2018-12-05 03:10:53 	cd boneal_playground/
+  191  2018-12-05 03:10:53 	ls
+  192  2018-12-05 03:10:53 	cd bonealnet.Boneal_Inno/
+  193  2018-12-05 03:10:53 	ls
+  194  2018-12-05 03:10:53 	code .
+  195  2018-12-05 03:10:53 	cd 
+  196  2018-12-05 03:10:53 	cd chevron_playground/
+  197  2018-12-05 03:10:53 	ls
+  198  2018-12-05 03:10:53 	ping 10.71.112.46
+  199  2018-12-05 03:10:53 	ssh -i ~/.ssh/id_rsa jumpuser@10.71.112.46
+  200  2018-12-05 03:10:53 	 
+  201  2018-12-05 03:10:53 	git clone 
+  202  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  203  2018-12-05 03:10:53 	ls
+  204  2018-12-05 03:10:53 	rm -rf  ansible-role-ssrs/
+  205  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  206  2018-12-05 03:10:53 	cat ~/.ssh/id_rsa
+  207  2018-12-05 03:10:53 	cat ~/.ssh/id_rsa.pub 
+  208  2018-12-05 03:10:53 	ssh-add ~/.ssh/id_rsa
+  209  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  210  2018-12-05 03:10:53 	git clone ssh://chevron@/chevron@104.214.111.103:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  211  2018-12-05 03:10:53 	git clone ssh://chevron@104.214.111.103:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  212  2018-12-05 03:10:53 	cat ~/.ssh/id_rsa.pub 
+  213  2018-12-05 03:10:53 	git clone ssh://chevron@104.214.111.103:22/AnsibleRoles/_ssh/ansible-role-ssrs 
+  214  2018-12-05 03:10:53 	ls
+  215  2018-12-05 03:10:53 	ls
+  216  2018-12-05 03:10:53 	cd ansible-role-ssrs/
+  217  2018-12-05 03:10:53 	ls
+  218  2018-12-05 03:10:53 	ansible-galaxy init ansible-role-ssrs
+  219  2018-12-05 03:10:53 	ls
+  220  2018-12-05 03:10:53 	mv ansible-role-ssrs/* .
+  221  2018-12-05 03:10:53 	ls
+  222  2018-12-05 03:10:53 	rm -rf ansible-role-ssrs/
+  223  2018-12-05 03:10:53 	code .
+  224  2018-12-05 03:10:53 	cd ..
+  225  2018-12-05 03:10:53 	ls
+  226  2018-12-05 03:10:53 	cd DSCIT-MFG-PHAPRO/
+  227  2018-12-05 03:10:53 	code .
+  228  2018-12-05 03:10:53 	ls
+  229  2018-12-05 03:10:53 	cd devel-centos7/
+  230  2018-12-05 03:10:53 	ls
+  231  2018-12-05 03:10:53 	docker build -t ansdevel .
+  232  2018-12-05 03:10:53 	ls
+  233  2018-12-05 03:10:53 	docker pull ansible/ansible:default
+  234  2018-12-05 03:10:53 	ls
+  235  2018-12-05 03:10:53 	cd ..
+  236  2018-12-05 03:10:53 	ls
+  237  2018-12-05 03:10:53 	cd ..
+  238  2018-12-05 03:10:53 	mkdir python_playground && cd $_
+  239  2018-12-05 03:10:53 	cd ~/chevron_playground/
+  240  2018-12-05 03:10:53 	ls
+  241  2018-12-05 03:10:53 	git clone https://chevron.visualstudio.com/AnsibleRoles/_ssh/GCF-Finance-TeamMate
+  242  2018-12-05 03:10:53 	git clone https://chevron.visualstudio.com/_git/GCF-Finance-TeamMate
+  243  2018-12-05 03:10:53 	ls
+  244  2018-12-05 03:10:53 	cd GCF-Finance-TeamMate/
+  245  2018-12-05 03:10:53 	code .
+  246  2018-12-05 03:10:53 	cd 
+  247  2018-12-05 03:10:53 	ls
+  248  2018-12-05 03:10:53 	mkdir ansibledevel
+  249  2018-12-05 03:10:53 	cd ansibledevel/
+  250  2018-12-05 03:10:53 	vi Dockerfile
+  251  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  252  2018-12-05 03:10:53 	df -h
+  253  2018-12-05 03:10:53 	du -h
+  254  2018-12-05 03:10:53 	docker images 
+  255  2018-12-05 03:10:53 	docker rmi $(docker images -q --filter "dangling=true")
+  256  2018-12-05 03:10:53 	docker ps
+  257  2018-12-05 03:10:53 	docker rm -f 8f129e73f433
+  258  2018-12-05 03:10:53 	docker rmi $(docker images -q --filter "dangling=true")
+  259  2018-12-05 03:10:53 	docker rm $(docker ps -a | grep Exited | awk '{print $1;}')
+  260  2018-12-05 03:10:53 	docker rmi $(docker images -q --filter "dangling=true")
+  261  2018-12-05 03:10:53 	docker images 
+  262  2018-12-05 03:10:53 	docker pull ansible/ansible:default
+  263  2018-12-05 03:10:53 	docker rmi 6061d8e4e142 -f 
+  264  2018-12-05 03:10:53 	docker pull ansible/ansible:default
+  265  2018-12-05 03:10:53 	docker run -it 199dc4 bash 
+  266  2018-12-05 03:10:53 	docker images | grep defa
+  267  2018-12-05 03:10:53 	docker run -it 6061d8e4e142  bash 
+  268  2018-12-05 03:10:53 	vi Dockerfile 
+  269  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  270  2018-12-05 03:10:53 	vi Dockerfile 
+  271  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  272  2018-12-05 03:10:53 	vi Dockerfile 
+  273  2018-12-05 03:10:53 	docker run -it 199dc4 bash 
+  274  2018-12-05 03:10:53 	docker run -it 6061d8e4e142  bash 
+  275  2018-12-05 03:10:53 	vi Dockerfile 
+  276  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  277  2018-12-05 03:10:53 	vi Dockerfile 
+  278  2018-12-05 03:10:53 	vi Dockerfile 
+  279  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  280  2018-12-05 03:10:53 	vi Dockerfile 
+  281  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  282  2018-12-05 03:10:53 	vi Dockerfile 
+  283  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  284  2018-12-05 03:10:53 	vi Dockerfile 
+  285  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  286  2018-12-05 03:10:53 	vi Dockerfile 
+  287  2018-12-05 03:10:53 	vi Dockerfile 
+  288  2018-12-05 03:10:53 	vi Dockerfile 
+  289  2018-12-05 03:10:53 	vi Dockerfile 
+  290  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  291  2018-12-05 03:10:53 	vi Dockerfile 
+  292  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  293  2018-12-05 03:10:53 	vi Dockerfile 
+  294  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  295  2018-12-05 03:10:53 	ls
+  296  2018-12-05 03:10:53 	vi Dockerfile 
+  297  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  298  2018-12-05 03:10:53 	vi Dockerfile 
+  299  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  300  2018-12-05 03:10:53 	vi Dockerfile 
+  301  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  302  2018-12-05 03:10:53 	vi Dockerfile 
+  303  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  304  2018-12-05 03:10:53 	vi Dockerfile 
+  305  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  306  2018-12-05 03:10:53 	vi Dockerfile 
+  307  2018-12-05 03:10:53 	docker run -it 6061d8e4e142  bash 
+  308  2018-12-05 03:10:53 	vi Dockerfile 
+  309  2018-12-05 03:10:53 	docker build -t yvraviteja59/ansidevel:1 .
+  310  2018-12-05 03:10:53 	cd .
+  311  2018-12-05 03:10:53 	cd 
+  312  2018-12-05 03:10:53 	grep -R "EOF" .
+  313  2018-12-05 03:10:53 	grep -R "RUN" .
+  314  2018-12-05 03:10:53 	grep -R "FROM " .
+  315  2018-12-05 03:10:53 	ls
+  316  2018-12-05 03:10:53 	cd -
+  317  2018-12-05 03:10:53 	ls
+  318  2018-12-05 03:10:53 	docker run -it 6061d8e4e142  bash 
+  319  2018-12-05 03:10:53 	vi Dockerfile 
+  320  2018-12-05 03:10:53 	tar -xvfz ansible-2.5.0rc1.tar.gz 
+  321  2018-12-05 03:10:53 	tar -xvf ansible-2.5.0rc1.tar.gz 
+  322  2018-12-05 03:10:53 	ls
+  323  2018-12-05 03:10:53 	cd ansible-2.5.0rc1
+  324  2018-12-05 03:10:53 	ls
+  325  2018-12-05 03:10:53 	make
+  326  2018-12-05 03:10:53 	ansible --version
+  327  2018-12-05 03:10:53 	ls
+  328  2018-12-05 03:10:53 	cd b
+  329  2018-12-05 03:10:53 	cd
+  330  2018-12-05 03:10:53 	docker images 
+  331  2018-12-05 03:10:53 	docker images | grep latest | awk '{print $1;}
+  332  2018-12-05 03:10:53 	docker images | grep latest | awk '{print $1;}'
+  333  2018-12-05 03:10:53 	docker images | grep latest 
+  334  2018-12-05 03:10:53 	docker images
+  335  2018-12-05 03:10:53 	docker tag 2da1d8d90b7e  jenkins:2.9
+  336  2018-12-05 03:10:53 	docker images
+  337  2018-12-05 03:10:53 	docker rmi jenkins:2.9
+  338  2018-12-05 03:10:53 	docker images
+  339  2018-12-05 03:10:53 	/Users/raviteja/Downloads/chromedriver ; exit;
+  340  2018-12-05 03:10:53 	ls
+  341  2018-12-05 03:10:53 	ls
+  342  2018-12-05 03:10:53 	curl -k https://myspace.innominds.com/employee/timesheetmonthview
+  343  2018-12-05 03:10:53 	ls
+  344  2018-12-05 03:10:53 	curl -k -U vyellayi:AYYyz8MaEs  https://myspace.innominds.com/employee/timesheetmonthview
+  345  2018-12-05 03:10:53 	curl -k -U vyellayi:AYYyz8MaEs  https://myspace.innominds.com/employee
+  346  2018-12-05 03:10:53 	ls
+  347  2018-12-05 03:10:53 	cd ..
+  348  2018-12-05 03:10:53 	ls
+  349  2018-12-05 03:10:53 	mkdir whatsapp && cd $_
+  350  2018-12-05 03:10:53 	git clone https://github.com/zvovov/whatsapp-web.git
+  351  2018-12-05 03:10:53 	pip install selenium
+  352  2018-12-05 03:10:53 	pip install --upgrade pip
+  353  2018-12-05 03:10:53 	ls
+  354  2018-12-05 03:10:53 	ls
+  355  2018-12-05 03:10:53 	cd whatsapp-web/
+  356  2018-12-05 03:10:53 	la
+  357  2018-12-05 03:10:53 	ls
+  358  2018-12-05 03:10:53 	vi chat.py 
+  359  2018-12-05 03:10:53 	ls
+  360  2018-12-05 03:10:53 	mv  ~/Downloads/chromedriver .
+  361  2018-12-05 03:10:53 	ls
+  362  2018-12-05 03:10:53 	vi chat.py 
+  363  2018-12-05 03:10:53 	ls
+  364  2018-12-05 03:10:53 	cp -r  chromedriver /bin/
+  365  2018-12-05 03:10:53 	sudo cp -r  chromedriver /bin/
+  366  2018-12-05 03:10:53 	sudo cp -r  chromedriver /bin/
+  367  2018-12-05 03:10:53 	sudo cp -r  chromedriver /bin/
+  368  2018-12-05 03:10:53 	python chat.py amma
+  369  2018-12-05 03:10:53 	python chat.py amma
+  370  2018-12-05 03:10:53 	cd ..
+  371  2018-12-05 03:10:53 	git clone https://github.com/mfornasa/DockerYarn.git
+  372  2018-12-05 03:10:53 	ls
+  373  2018-12-05 03:10:53 	cd DockerYarn/
+  374  2018-12-05 03:10:53 	ls
+  375  2018-12-05 03:10:53 	./build.sh 
+  376  2018-12-05 03:10:53 	ls
+  377  2018-12-05 03:10:53 	docker ps 
+  378  2018-12-05 03:10:53 	docker images 
+  379  2018-12-05 03:10:53 	docker images | grep yarn 
+  380  2018-12-05 03:10:53 	docker run yarn-demo node -e "http://api.whatsapp.com/send?phone=<+919885675745>&text=<hello>"
+  381  2018-12-05 03:10:53 	cd ../whatsapp-web/
+  382  2018-12-05 03:10:53 	;s
+  383  2018-12-05 03:10:53 	ls
+  384  2018-12-05 03:10:53 	python chat.py amma
+  385  2018-12-05 03:10:53 	npm install chromedriver
+  386  2018-12-05 03:10:53 	python chat.py amma
+  387  2018-12-05 03:10:53 	vi chat.py 
+  388  2018-12-05 03:10:53 	pwd
+  389  2018-12-05 03:10:53 	vi chat.py 
+  390  2018-12-05 03:10:53 	python chat.py amma
+  391  2018-12-05 03:10:53 	vi ch
+  392  2018-12-05 03:10:53 	vi chat.py 
+  393  2018-12-05 03:10:53 	python chat.py amma
+  394  2018-12-05 03:10:53 	python chat.py amma
+  395  2018-12-05 03:10:53 	brew install fdupes
+  396  2018-12-05 03:10:53 	cd ~/
+  397  2018-12-05 03:10:53 	pwd
+  398  2018-12-05 03:10:53 	fdupes -r . > dup.txt
+  399  2018-12-05 03:10:53 	wc -l dup.txt 
+  400  2018-12-05 03:10:53 	py
+  401  2018-12-05 03:10:53 	python
+  402  2018-12-05 03:10:53 	ls
+  403  2018-12-05 03:10:53 	vi python_playground/
+  404  2018-12-05 03:10:53 	clear
+  405  2018-12-05 03:10:53 	cd python_playground/
+  406  2018-12-05 03:10:53 	ls
+  407  2018-12-05 03:10:53 	vi t.py
+  408  2018-12-05 03:10:53 	python t.py 
+  409  2018-12-05 03:10:53 	python3
+  410  2018-12-05 03:10:53 	python3
+  411  2018-12-05 03:10:53 	cd 
+  412  2018-12-05 03:10:53 	cd boneal_playground/
+  413  2018-12-05 03:10:53 	ls
+  414  2018-12-05 03:10:53 	cd ..
+  415  2018-12-05 03:10:53 	zip boneal_playground/
+  416  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/AnsibleRoles/_ssh/ansible-role-prep-vm
+  417  2018-12-05 03:10:53 	ls
+  418  2018-12-05 03:10:53 	cd
+  419  2018-12-05 03:10:53 	cd chevron_playground/
+  420  2018-12-05 03:10:53 	ls
+  421  2018-12-05 03:10:53 	rm -rf DSCIT-MFG-PHAPRO/
+  422  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/DSCIT-MFG-PHAPRO/_ssh/DSCIT-MFG-PHAPRO
+  423  2018-12-05 03:10:53 	cd ..
+  424  2018-12-05 03:10:53 	ls
+  425  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/ITC-ITSD-SES-Jenkins/_ssh/ITC-ITSD-SES-Jenkins
+  426  2018-12-05 03:10:53 	docker run -i -t --rm --name ansible -v /Users/raviteja/chevron_playground/ITC-ITSD-SES-Jenkins:/src -v /var/run/docker.sock:/var/run/docker.sock dockiot/ansible bash
+  427  2018-12-05 03:10:53 	cd ..
+  428  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/ITC-ITSD-SES-Jenkins/_ssh/ansible-jenkins-linux-agents
+  429  2018-12-05 03:10:53 	ls
+  430  2018-12-05 03:10:53 	cd ansible-jenkins-linux-agents/
+  431  2018-12-05 03:10:53 	ls
+  432  2018-12-05 03:10:53 	ls
+  433  2018-12-05 03:10:53 	ansible-galaxy init ansible-jenkins-linux-agents
+  434  2018-12-05 03:10:53 	ls
+  435  2018-12-05 03:10:53 	docker run centos
+  436  2018-12-05 03:10:53 	docker ps
+  437  2018-12-05 03:10:53 	docker run -itd 9989
+  438  2018-12-05 03:10:53 	docker images 
+  439  2018-12-05 03:10:53 	docker run -itd  6bb355657533
+  440  2018-12-05 03:10:53 	docker ps
+  441  2018-12-05 03:10:53 	docker exec -it d2 /bin/bash 
+  442  2018-12-05 03:10:53 	docker imahe | greo centos 
+  443  2018-12-05 03:10:53 	docker images | gre centos 
+  444  2018-12-05 03:10:53 	docker images | grep centos 
+  445  2018-12-05 03:10:53 	docker run -itd  e934aafc2206
+  446  2018-12-05 03:10:53 	docke r[s
+  447  2018-12-05 03:10:53 	docker ps
+  448  2018-12-05 03:10:53 	docker exec -it 55 /bin/bash 
+  449  2018-12-05 03:10:53 	python
+  450  2018-12-05 03:10:53 	ls
+  451  2018-12-05 03:10:53 	git clone https://github.com/ansible/ansible.git
+  452  2018-12-05 03:10:53 	ls
+  453  2018-12-05 03:10:53 	cd ansible
+  454  2018-12-05 03:10:53 	ls
+  455  2018-12-05 03:10:53 	cd chevron_playground/
+  456  2018-12-05 03:10:53 	ls
+  457  2018-12-05 03:10:53 	git clone ssh://chevron@vs-ssh.visualstudio.com:22/AnsibleRoles/_ssh/ansible-role-azure-rsvault
+  458  2018-12-05 03:10:53 	ls
+  459  2018-12-05 03:10:53 	pip install azure 
+  460  2018-12-05 03:10:53 	pip install azure-python
+  461  2018-12-05 03:10:53 	docker images 
+  462  2018-12-05 03:10:53 	docker pull centos 
+  463  2018-12-05 03:10:53 	docker images 
+  464  2018-12-05 03:10:53 	docker run -it 5182e96772bf bash 
+  465  2018-12-05 03:10:53 	df -h
+  466  2018-12-05 03:10:53 	docker run -it 5182e96772bf bash 
+  467  2018-12-05 03:10:53 	df -h
+  468  2018-12-05 03:10:53 	pwd
+  469  2018-12-05 03:10:53 	docker run -it 5182e96772bf bash -v /Users/raviteja/barco_new/:/
+  470  2018-12-05 03:10:53 	docker run -it 5182e96772bf  -v /Users/raviteja/barco_new/:/var bash
+  471  2018-12-05 03:10:53 	docker run   -v /Users/raviteja/barco_new/:/var bash -it 5182e96772bf
+  472  2018-12-05 03:10:53 	docker run -it 5182e96772bf bash -v /Users/raviteja/barco_new/:/var/cache
+  473  2018-12-05 03:10:53 	docker run -it 5182e96772bf bash -v /Users/raviteja/barco_new/:/home
+  474  2018-12-05 03:10:53 	docker run   -v /Users/raviteja/barco_new/:/var bash -it 5182e96772bf
+  475  2018-12-05 03:10:53 	cd ~/Library/Application\ Support/
+  476  2018-12-05 03:10:53 	pwd
+  477  2018-12-05 03:10:53 	aws
+  478  2018-12-05 03:10:53 	curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator
+  479  2018-12-05 03:10:53 	curl -o aws-iam-authenticator.sha256 https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator.sha256
+  480  2018-12-05 03:10:53 	openssl sha -sha256 aws-iam-authenticator
+  481  2018-12-05 03:10:53 	openssl sha -sha256 aws-iam-authenticator
+  482  2018-12-05 03:10:53 	ls
+  483  2018-12-05 03:10:53 	curl -o aws-iam-authenticator.sha256 https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator.sha256
+  484  2018-12-05 03:10:53 	ls
+  485  2018-12-05 03:10:53 	curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator
+  486  2018-12-05 03:10:53 	ls
+  487  2018-12-05 03:10:53 	curl -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator
+  488  2018-12-05 03:10:53 	curl -k -o aws-iam-authenticator https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator
+  489  2018-12-05 03:10:53 	ls
+  490  2018-12-05 03:10:53 	chmod +x ./aws-iam-authenticator
+  491  2018-12-05 03:10:53 	cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOME/bin:$PATH
+  492  2018-12-05 03:10:53 	aws --version
+  493  2018-12-05 03:10:53 	echo $PATH 
+  494  2018-12-05 03:10:53 	echo $HOME
+  495  2018-12-05 03:10:53 	mkdir -p ~/bin/aws-iam-authenticator
+  496  2018-12-05 03:10:53 	cp ./aws-iam-authenticator $HOME/bin/aws-iam-authenticator && export PATH=$HOME/bin:$PATH
+  497  2018-12-05 03:10:53 	echo 'export PATH=$HOME/bin:$PATH' >> ~/.bash_profile
+  498  2018-12-05 03:10:53 	aws-iam-authenticator help
+  499  2018-12-05 03:10:53 	brew  update 
+  500  2018-12-05 03:10:57 	gcloud 
+  501  2018-12-05 03:11:15 	gcloud services enable container.googleapis.com
+  502  2018-12-05 03:11:42 	gcloud config set project gke-tf-demo
+  503  2018-12-05 03:11:49 	gcloud services enable container.googleapis.com
+  504  2018-12-05 03:11:59 	gcloud auth login 
+  505  2018-12-05 03:12:50 	gcloud config set project gke-tf-demo
+  506  2018-12-05 03:12:55 	gcloud services enable container.googleapis.com
+  507  2018-12-05 03:15:40 	gcloud services enable container.googleapis.com
+  508  2018-12-05 03:21:00 	gcloud services enable container.googleapis.com
+  509  2018-12-05 10:19:54 	gcloud services enable container.googleapis.com
+  510  2018-12-05 10:20:06 	gcloud config set project gke-tf-demo
+  511  2018-12-05 10:20:10 	gcloud services enable container.googleapis.com
+  512  2018-12-05 10:21:20 	gcloud service-management enable --project gke-tf-demo  compute-component.googleapis.com
+  513  2018-12-05 10:21:39 	gcloud services  enable --project gke-tf-demo  compute-component.googleapis.com
+  514  2018-12-05 10:34:28 	gcloud services  enable --project gke-tf-demo  compute-component.googleapis.com
+  515  2018-12-05 10:34:31 	gcloud services  enable --project gke-tf-demo  compute-component.googleapis.com
+  516  2018-12-05 10:35:38 	gcloud services  enable --project gke-tf-demo  compute-component.googleapis.com
+  517  2018-12-05 10:35:48 	gcloud auth login 
+  518  2018-12-05 10:36:22 	gcloud services enable container.googleapis.com
+  519  2018-12-05 10:36:39 	gcloud 
+  520  2018-12-05 10:41:47 	gcloud projects list
+  521  2018-12-05 10:42:04 	gcloud config set project gke-tf-demo
+  522  2018-12-05 10:42:20 	gcloud services enable container.googleapis.com
+  523  2018-12-05 10:43:16 	gcloud  init
+  524  2018-12-05 10:43:31 	gcloud  init
+  525  2018-12-05 10:44:29 	gcloud services enable container.googleapis.com
+  526  2018-12-05 10:44:52 	cd pri8pay/GCP_playground/
+  527  2018-12-05 10:45:08 	terraform plan -out myplan
+  528  2018-12-05 10:45:17 	terraform apply "myplan"
+  529  2018-12-05 10:45:28 	gcloud services enable container.googleapis.com
+  530  2018-12-05 10:49:20 	gcloud iam service-accounts list
+  531  2018-12-05 10:53:32 	ls
+  532  2018-12-05 10:53:34 	https://github.com/raviteja59/gke_playground.git
+  533  2018-12-05 10:53:40 	git clone https://github.com/raviteja59/gke_playground.git
+  534  2018-12-05 10:53:43 	ls
+  535  2018-12-05 10:54:54 	mv -r  * gke_playground/
+  536  2018-12-05 10:55:02 	mv   * gke_playground/
+  537  2018-12-05 10:55:07 	ls
+  538  2018-12-05 10:55:10 	cd gke_playground/
+  539  2018-12-05 10:55:10 	ls
+  540  2018-12-05 11:29:04 	cd gke_playground/
+  541  2018-12-05 11:29:07 	ls
+  542  2018-12-05 11:29:16 	terraform plan -out myplan
+  543  2018-12-05 11:29:29 	terraform init
+  544  2018-12-05 11:29:54 	terraform plan -out myplan
+  545  2018-12-05 11:30:07 	terraform apply "myplan"
+  546  2018-12-05 11:32:34 	gcloud services enable container.googleapis.com
+  547  2018-12-05 11:32:39 	terraform apply "myplan"
+  548  2018-12-05 11:46:42 	terraform apply "myplan"
+  549  2018-12-05 11:47:47 	terraform plan -out myplan
+  550  2018-12-05 11:47:50 	terraform apply "myplan"
+  551  2018-12-05 11:50:59 	export HISTTIMEFORMAT='%F %T %t'
+  552  2018-12-05 11:51:06 	history 
+  553  2018-12-05 11:53:17 	history | grep -e "2018-12-05"
+  554  2018-12-05 11:53:31 	history | grep -e "2018-12-05" > hist.txt
