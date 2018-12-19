@@ -1,7 +1,6 @@
 provider "google" {
-  credentials = "${file("./creds/gke-tf-demo-224611-daefe9b7a4e6.json")}"
-  project     = "gke-tf-demo"
-  region      = "us-west1"
+  credentials = "${file("./creds/serviceaccount.json")}"
+  project     = "p8psynergyx"
 }
 
 resource "google_container_cluster" "default" {
@@ -14,9 +13,14 @@ resource "google_container_cluster" "default" {
   node_version           = "${var.k8sVersion}"
   master_ipv4_cidr_block = "${var.master_cidr_block}"
 
+  node_config {
+    preemptible  = true
+    machine_type = "n1-standard-2"
+  }
+
   master_authorized_networks_config = {
     cidr_blocks = "${var.master_authorized_networks_config}"
   }
 
-  ip_allocation_policy {}
+  ip_allocation_policy = {}
 }

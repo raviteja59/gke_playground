@@ -2,7 +2,7 @@
   default = "compute-engine-overviw"
 }*/
 variable "cluster_name" {
-  default = "gke"
+  default = "gke2"
 }
 
 variable "workspace" {
@@ -48,9 +48,9 @@ variable "master_authorized_networks_config" {
 
   default = [
     {
-      cidr_block = "18.204.16.72/32"
+      cidr_block = "73.252.130.75/32"
 
-      display_name = "jump"
+      display_name = "ravi"
     },
   ]
 }

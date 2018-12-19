@@ -1,0 +1,22 @@
+gcloud compute instances create nat-gateway --network default   --can-ip-forward --zone us-central1-a --image-family=centos-7   --image-project=centos-cloud  --boot-disk-size 10G   --machine-type f1-micro
+
+gcloud compute routes create nat-internet-route --network default   --destination-range 0.0.0.0/0   --next-hop-instance nat-gateway   --next-hop-instance-zone us-central1-a   --tags no-ip --priority 900
+
+for k in $(kubectl get nodes| awk -F " " '{print $1}'| grep gke); do gcloud compute instances add-tags $k  --tags no-ip --zone us-central1-a; done
+
+
+kubectl create sa tiller -n kube-system && kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
+
+
+helm init
+
+kubectl patch deploy --namespace kube-system tiller-deploy -p '{"spec":{"template":{"spec":{"serviceAccount":"tiller"}}}}'
+
+ helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
+
+helm install --name my-kafka incubator/kafka
+
+helm repo add landoop https://landoop.github.io/kafka-helm-charts/
+
+
+helm install landoop/lenses  --name  lenses --set ingress.enabled=false
