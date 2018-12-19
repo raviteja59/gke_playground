@@ -20,3 +20,29 @@ helm repo add landoop https://landoop.github.io/kafka-helm-charts/
 
 
 helm install landoop/lenses  --name  lenses --set ingress.enabled=false
+
+kubectl expose svc lenses --type=LoadBalancer --name=lenses-expose
+
+
+
+
+Once you have the testclient pod above running, you can list all kafka
+topics with:
+
+  kubectl -n default exec testclient -- /usr/bin/kafka-topics --zookeeper my-kafka-zookeeper:2181 --list
+
+To create a new topic:
+
+  kubectl -n default exec testclient -- /usr/bin/kafka-topics --zookeeper my-kafka-zookeeper:2181 --topic test1 --create --partitions 1 --replication-factor 1
+
+To listen for messages on a topic:
+
+  kubectl -n default exec -ti testclient -- /usr/bin/kafka-console-consumer --bootstrap-server my-kafka:9092 --topic test1 --from-beginning
+
+To stop the listener session above press: Ctrl+C
+
+To start an interactive message producer session:
+  kubectl -n default exec -ti testclient -- /usr/bin/kafka-console-producer --broker-list my-kafka-headless:9092 --topic test1
+
+To create a message in the above session, simply type the message and press "enter"
+To end the producer session try: Ctrl+C
