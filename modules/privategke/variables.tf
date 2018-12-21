@@ -26,7 +26,7 @@ variable "cdeK8sNodeNum" {
 }
 
 variable "k8sVersion" {
-  default = "1.11.3-gke.18"
+  default = "1.11.5-gke.5"
 }
 
 variable "node_version" {
